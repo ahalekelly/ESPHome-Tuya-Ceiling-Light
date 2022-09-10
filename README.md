@@ -10,10 +10,4 @@ Solder jumper wires to the ESP pads and connect it to a USB to Serial adapter li
 
 ## Flashing
 
-Plug it in to your computer, make sure your USB to serial adapter drivers are installed, and install esphome
-
-Enter your WiFi details in `secrets.yaml`
-
-In your terminal, navigate to to this directory and run `esphome run esphome-tuya-ceiling-light.yaml` to compile the firmware and upload to the ESP
-
-Connect your light back to mains power, open Home Assistant and you should see a notification asking you if you want to add your new ceiling light!
+Enter your WiFi details in `secrets.yaml` then follow the [ESPHome instructions](https://esphome.io/guides/getting_started_hassio.html). Here's [another tutorial](https://www.pieterbrinkman.com/2020/12/14/flash-esp-chip-with-esphome-node-firmware/), or if you're running Home Assistant in a docker container like I am, you can install the ESPHome [command line](https://esphome.io/guides/installing_esphome.html) and then run `esphome run ESPHome-Tuya-Ceiling-Light.yaml`
