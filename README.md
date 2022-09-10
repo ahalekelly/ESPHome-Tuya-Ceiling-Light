@@ -1,5 +1,5 @@
 # ESPHome Tuya Ceiling Light
-I bought a [Tuya Ceiling Light](https://www.amazon.com/gp/product/B09HZG1Q9Y) because it was cheap and ignored the reviews where many people were having problems. Sure enough, after a few months the after a few months the light started frequently disconnecting from WiFi and flashing off and on. But we can fix this using open source software!
+I bought a [Tuya 60W Ceiling Light](https://www.amazon.com/gp/product/B09HZG1Q9Y) because it was cheap and I ignored the reviews where many people had it failed on them. Sure enough, after a few months the after a few months the light would no longer connect to WiFi and was constantly flashing off and on. But we can fix this with open source software!
 
 The brains of this light are a proprietary CB3S Tuya WiFi module, but it's pin compatible with the ESP-12 ESP8266 modules, so let's take control of our electronics.
 
