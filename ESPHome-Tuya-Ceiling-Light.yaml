@@ -39,9 +39,8 @@ light:
     blue: blue
     cold_white: cold_white
     warm_white: warm_white
-    # color temperature not calibrated!
-    cold_white_color_temperature: 6536 K
-    warm_white_color_temperature: 2000 K
+    cold_white_color_temperature: 6500 K
+    warm_white_color_temperature: 2700 K
 
 output:
   - platform: esp8266_pwm
